@@ -246,3 +246,168 @@ Song Recommendation
        │
        ▼
 Gradio Interface
+
+📊 Exploratory Data Analysis
+
+The project performs several exploratory analyses to understand the Spotify dataset.
+
+Genre Analysis
+
+The dataset contains six major genres:
+
+Genre	Number of Songs
+EDM	6,043
+Rap	5,743
+Pop	5,507
+R&B	5,431
+EDM contains the highest number of songs in the dataset.
+
+Subgenre Analysis
+
+The dataset contains 24 playlist subgenres.
+
+The largest subgenre is:
+
+Progressive electro house — 1,809 songs
+
+
+🔥 Correlation Analysis
+
+A correlation matrix was created using the nine selected audio features.
+
+Some important observed relationships include:
+
+Energy and Loudness → 0.68
+Energy and Acousticness → -0.54
+Loudness and Acousticness → -0.36
+Danceability and Valence → 0.33
+
+The correlation matrix helps identify relationships between different audio characteristics.
+Latin	5,153
+Rock	4,951
+
+
+📏 Feature Standardization
+
+Because the selected audio features have different numerical ranges, StandardScaler was used before clustering.
+
+The scaled feature matrix contains:
+
+32,828 songs
+9 audio features
+
+Resulting shape:
+
+(32828, 9)
+
+
+🤖 K-Means Clustering
+
+K-Means clustering was tested with cluster values ranging from:
+
+K = 2 to K = 10
+
+The Elbow Method was used to analyze inertia.
+
+The Silhouette Score was then calculated to compare the clustering results.
+
+Silhouette Scores
+K	Silhouette Score
+2	0.1897
+3	0.1361
+4	0.1494
+5	0.1548
+6	0.1574
+7	0.1407
+8	0.1384
+9	0.1432
+10	0.1418
+Among the tested values, K = 2 produced the highest silhouette score of 0.1897
+
+
+📊 Cluster Results
+
+The final clustering produced two groups:
+
+Cluster	Number of Songs
+Cluster 0	9,665
+Cluster 1	23,163
+Cluster 0 Characteristics
+
+Cluster 0 has:
+
+Lower average energy
+Lower average loudness
+Higher acousticness
+Lower average tempo
+Cluster 1 Characteristics
+
+Cluster 1 has:
+
+Higher average energy
+Higher average loudness
+Lower acousticness
+Slightly higher average tempo
+
+Danceability is relatively similar between the two clusters
+
+
+🔍 PCA Visualization
+
+Principal Component Analysis was used to reduce the nine-dimensional audio feature space to two dimensions for visualization.
+
+PCA Result
+PCA Shape: (32828, 2)
+
+Explained variance:
+
+Principal Component 1 = 23.91%
+Principal Component 2 = 16.76%
+
+Combined explained variance:
+
+40.67%
+
+The PCA visualization provides a two-dimensional view of the cluster structure.
+
+
+🎼 Genre Analysis Across Clusters
+
+The distribution of genres across the two clusters was analyzed.
+
+Genre	Cluster 0	Cluster 1
+EDM	10.89%	89.11%
+Latin	25.46%	74.54%
+Pop	25.31%	74.69%
+R&B	51.50%	48.50%
+Rap	35.33%	64.67%
+Rock	29.79%	70.21%
+
+These percentages are calculated within each genre.
+
+The clusters were created using audio features rather than genre labels.
+
+
+🎧 Subgenre Analysis
+
+The project also analyzed how playlist subgenres are distributed across the clusters.
+
+The largest percentage-point differences were observed for:
+
+Subgenre	Difference
+Big room	91.71
+Progressive electro house	83.86
+Reggaeton	75.32
+Hard rock	72.53
+Electro house	71.01
+Pop EDM	67.96
+Dance pop	67.95
+Latin hip hop	58.43
+Post-teen pop	58.02
+Electropop	56.53
+
+
+
+
+EDM contains the highest number of songs in the dataset.
+
