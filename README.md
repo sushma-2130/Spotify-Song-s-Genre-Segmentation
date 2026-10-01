@@ -247,21 +247,15 @@ Song Recommendation
        ▼
 Gradio Interface
 
----
-## 📊 Exploratory Data Analysis
+--
+-The recommendation system also displays the similarity score for each recommended song.
 
-The project performs several exploratory analyses to understand the Spotify dataset.
-
-Genre Analysis
-
-The dataset contains six major genres:
-
-Genre	Number of Songs
-EDM	6,043
-Rap	5,743
-Pop	5,507
-R&B	5,431
-Latin	5,153
-Rock	4,951
-
-EDM contains the highest number of songs in the dataset.
+🚀 Future Enhancements
+-Experiment with additional clustering algorithms such as Hierarchical Clustering and DBSCAN.
+-Improve cluster visualization using additional dimensionality reduction techniques.
+-Add playlist-based recommendations.
+-Build a more advanced recommendation system using multiple similarity techniques.
+-Develop a more interactive web application.
+-Deploy the recommendation system as an online application.
+-Include user preferences and listening history for personalized recommendations.
+-Experiment with additional Spotify song attributes for improved recommendations.
