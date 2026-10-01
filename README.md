@@ -247,15 +247,6 @@ Song Recommendation
        ▼
 Gradio Interface
 
---
--The recommendation system also displays the similarity score for each recommended song.
 
-🚀 Future Enhancements
--Experiment with additional clustering algorithms such as Hierarchical Clustering and DBSCAN.
--Improve cluster visualization using additional dimensionality reduction techniques.
--Add playlist-based recommendations.
--Build a more advanced recommendation system using multiple similarity techniques.
--Develop a more interactive web application.
--Deploy the recommendation system as an online application.
--Include user preferences and listening history for personalized recommendations.
--Experiment with additional Spotify song attributes for improved recommendations.
+
+- 📊 Exploratory Data Analysis
