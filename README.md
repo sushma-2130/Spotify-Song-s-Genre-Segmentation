@@ -1,8 +1,8 @@
 # 🎵 Spotify-Songs-Genre-Segmentation
 Machine learning project for Spotify song clustering and content-based song recommendation.
-<div align="center">
+<div align="left">
 
-### # 🎵 Spotify Song's Genre Segmentation using Machine Learning
+### 🎵 Spotify Song's Genre Segmentation using Machine Learning
 
 ### Intelligent Music Genre Segmentation & Song Recommendation using K-Means Clustering
 
