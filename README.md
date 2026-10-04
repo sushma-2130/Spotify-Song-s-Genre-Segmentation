@@ -1,6 +1,6 @@
 # 🎵 Spotify-Songs-Genre-Segmentation
 
-### Machine learning project for Spotify song clustering and content-based song recommendation.  
+# Machine learning project for Spotify song clustering and content-based song recommendation.  
 
 <div align="center">
 
@@ -207,7 +207,7 @@ Spotify_Genre_Segmentation/
 
 ### Clone Repository
 
-    git clone https://github.com/yeswanth096/Spotify_Genre_Segmentation.git
+    git clone https://github.com/sushma-2130/Spotify_Genre_Segmentation.git
 
 ### Navigate
 
