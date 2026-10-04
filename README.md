@@ -2,7 +2,7 @@
 
 ### Machine learning project for Spotify song clustering and content-based song recommendation.  
 
-<div align="left">
+<div align="center">
 
 Discover hidden patterns in Spotify songs by clustering tracks based on their audio characteristics and generating song recommendations using unsupervised Machine Learning.
 
